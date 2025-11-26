@@ -1,37 +1,73 @@
-# MattSchutz SCADA ![MattSchutz SCADA Logo](https://i.postimg.cc/gks5Fbpd/favicon.png)
+# Welcome to your Lovable project
 
-## Descrição do Projeto
+## Project info
 
-O **MattSchutz SCADA** é um sistema de supervisão e controle de processos industriais, projetado para ser eficiente, seguro e fácil de usar. Este frontend foi desenvolvido para exibir informações em tempo real, gerar gráficos e permitir a interação com os dispositivos controlados, proporcionando um painel de controle robusto para operadores e técnicos.
+**URL**: https://lovable.dev/projects/8d5e26bc-5975-45d3-886f-d1bf72a93ee5
 
-![Print do SCADA](https://i.postimg.cc/d320ttB9/76793182-7625-4F5D-83C8-ADAC441F5748.png)
+## How can I edit this code?
 
-## Tecnologias Usadas
+There are several ways of editing your application.
 
-### ![TypeScript Logo](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) **TypeScript**
+**Use Lovable**
 
-A principal linguagem utilizada no projeto. TypeScript é uma linguagem fortemente tipada que permite maior segurança no código, tornando a manutenção mais fácil e reduzindo os erros em tempo de execução.
+Simply visit the [Lovable Project](https://lovable.dev/projects/8d5e26bc-5975-45d3-886f-d1bf72a93ee5) and start prompting.
 
----
+Changes made via Lovable will be committed automatically to this repo.
 
-### ![React Logo](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) **React**
+**Use your preferred IDE**
 
-Biblioteca JavaScript para criar interfaces de usuário dinâmicas e reativas. Utilizamos o React para construir componentes modulares que facilitam a interação com o usuário e a atualização das informações em tempo real.
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
----
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-### ![Tailwind CSS Logo](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white) **Tailwind CSS**
+Follow these steps:
 
-Framework CSS utilitário que facilita a construção de layouts flexíveis e responsivos. Com Tailwind, conseguimos criar uma interface moderna e fácil de manter, com foco na personalização de estilos.
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
----
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-### ![Vite Logo](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) **Vite**
+# Step 3: Install the necessary dependencies.
+npm i
 
-Ferramenta de build moderna e super rápida que proporciona um ambiente de desenvolvimento ágil. Vite acelera o tempo de desenvolvimento com recarga instantânea e compilações rápidas.
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
----
+**Edit a file directly in GitHub**
 
-### **Backend em Java (Futuro)**
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-Em breve, o **MattSchutz SCADA** será integrado com um backend desenvolvido em **Java** para fornecer toda a lógica de controle, comunicação com o hardware e o armazenamento dos dados em tempo real.
+**Use GitHub Codespaces**
+
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
+
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/8d5e26bc-5975-45d3-886f-d1bf72a93ee5) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
