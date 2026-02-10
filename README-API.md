@@ -1,7 +1,6 @@
 # Integração com Backend Spring Boot
 
-Este frontend está preparado para consumir dados de uma API REST Spring Boot.
-
+Segue como deve ocorrer a integração com backend usando a ferramenta spring boot.
 ## 🔧 Configuração
 
 ### 1. Modo Simulado (Padrão)
